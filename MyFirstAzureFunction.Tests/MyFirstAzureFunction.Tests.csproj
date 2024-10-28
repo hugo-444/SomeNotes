@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.41" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
+        <PackageReference Include="Moq" Version="4.20.72" />
+        <PackageReference Include="NUnit" Version="3.14.0"/>
+        <PackageReference Include="NUnit.Analyzers" Version="3.9.0"/>
+        <PackageReference Include="NUnit3TestAdapter" Version="4.5.0"/>
+        <PackageReference Include="NunitXml.TestLogger" Version="4.0.254" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="NUnit.Framework"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyFirstAzureFunction\MyFirstAzureFunction.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Functions\QuickTriggerTests.cs" />
+      <Compile Remove="Authors\**" />
+      <Compile Remove="TestHelpers.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Authors\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Authors\**" />
+    </ItemGroup>
+
+</Project>

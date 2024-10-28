@@ -1,0 +1,109 @@
+[
+  {
+    "name": "CreateNewNote",
+    "scriptFile": "MyFirstAzureFunction.dll",
+    "entryPoint": "MyFirstAzureFunction.Functions.CreateNewNote.RunAsync",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Function",
+        "methods": [
+          "post"
+        ],
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  },
+  {
+    "name": "GetAllNotes",
+    "scriptFile": "MyFirstAzureFunction.dll",
+    "entryPoint": "MyFirstAzureFunction.Functions.GetAllNotes.RunAsync",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Function",
+        "methods": [
+          "get"
+        ],
+        "route": "allNotes/",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  },
+  {
+    "name": "GetNoteById",
+    "scriptFile": "MyFirstAzureFunction.dll",
+    "entryPoint": "MyFirstAzureFunction.Functions.GetNoteById.RunAsync",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Function",
+        "methods": [
+          "get"
+        ],
+        "route": "notes/{note_id}",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  },
+  {
+    "name": "GetNotesByTag",
+    "scriptFile": "MyFirstAzureFunction.dll",
+    "entryPoint": "MyFirstAzureFunction.Functions.GetNotesByTag.GetNotesByTagAsync",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Function",
+        "methods": [
+          "get"
+        ],
+        "route": "tag/{tagName}",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  }
+]

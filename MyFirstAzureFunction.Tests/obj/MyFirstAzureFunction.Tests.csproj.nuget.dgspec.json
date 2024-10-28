@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
+        "projectName": "MyFirstAzureFunction.Tests",
+        "projectPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
+        "packagesPath": "/Users/hugocovarrubias/.nuget/packages/",
+        "outputPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hugocovarrubias/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj": {
+                "projectPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[3.0.41, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "NunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[4.0.254, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj",
+        "projectName": "MyFirstAzureFunction",
+        "projectPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj",
+        "packagesPath": "/Users/hugocovarrubias/.nuget/packages/",
+        "outputPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hugocovarrubias/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ApplicationInsights.WorkerService": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.ApplicationInsights": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Abstractions": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Sdk": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0-rc.1.24431.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0-rc.1.24431.7, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1-dev-10398, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
