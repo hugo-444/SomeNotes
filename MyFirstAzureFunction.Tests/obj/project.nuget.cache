@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+F7cLT7x2s4=",
+  "dgSpecHash": "Vfu/9SOhGAM=",
   "success": true,
-  "projectFilePath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
+  "projectFilePath": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/hugocovarrubias/.nuget/packages/azure.core/1.37.0/azure.core.1.37.0.nupkg.sha512",
     "/Users/hugocovarrubias/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",

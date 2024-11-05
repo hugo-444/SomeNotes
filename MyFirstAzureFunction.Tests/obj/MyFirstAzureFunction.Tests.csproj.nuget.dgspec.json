@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj": {}
+    "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj": {}
   },
   "projects": {
-    "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj": {
+    "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
+        "projectUniqueName": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
         "projectName": "MyFirstAzureFunction.Tests",
-        "projectPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
+        "projectPath": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction.Tests/MyFirstAzureFunction.Tests.csproj",
         "packagesPath": "/Users/hugocovarrubias/.nuget/packages/",
-        "outputPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction.Tests/obj/",
+        "outputPath": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hugocovarrubias/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj": {
-                "projectPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj"
+              "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction/MyFirstAzureFunction.csproj": {
+                "projectPath": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction/MyFirstAzureFunction.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj": {
+    "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction/MyFirstAzureFunction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj",
+        "projectUniqueName": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction/MyFirstAzureFunction.csproj",
         "projectName": "MyFirstAzureFunction",
-        "projectPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/MyFirstAzureFunction.csproj",
+        "projectPath": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction/MyFirstAzureFunction.csproj",
         "packagesPath": "/Users/hugocovarrubias/.nuget/packages/",
-        "outputPath": "/Users/hugocovarrubias/Documents/class work/Capstone/RiderProjects/SourceCSE/MyFirstAzureFunction/MyFirstAzureFunction/obj/",
+        "outputPath": "/Users/hugocovarrubias/_repos/SourceSomeNotes/SomeNotes/MyFirstAzureFunction/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hugocovarrubias/.nuget/NuGet/NuGet.Config"
